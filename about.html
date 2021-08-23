@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="About me">
+  <meta name="keywords" content="Alireza, bio">
+  <meta name="author" content="Alireza Maleki">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="icon" href="https://img.icons8.com/material-outlined/24/000000/map--v1.png">
+  
+  <style type="text/css">
+  body { margin:0; }
+  </style>
+  
+<style>
+* {
+  box-sizing: border-box;
+}
+
+a { text-decoration: none; }
+
+.columnLeft {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  text-align: right;
+  font-family: 'Signika Negative', 'Merriweather',  sans-serif;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.columnMiddle {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  font-family: 'Signika Negative', 'Merriweather', sans-serif;
+  font-size:1.4vw;
+}
+
+.columnRight {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Signika Negative', 'Merriweather', sans-serif;
+  font-style: italic;
+  font-weight: 100;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  height: 100%;
+}
+
+.nopadding {
+  padding: 0;
+}
+
+.fullscreen {
+  height: 95%;
+  position: relative;
+}
+
+
+h2 {
+text-align: center;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:100%;
+  height:auto;
+}
+
+
+#header {
+  background: rgba(255, 255, 255, .5);
+  padding: 1%;
+  height: 5vw;
+}
+
+#header img {
+  float: left;
+  box-shadow: none;
+}
+
+#header ul {
+  list-style: none;
+  float: left;
+  padding-left: 0.8vw;
+  margin-top: 0.8vw;
+  margin-bottom: 1.5vw;
+}
+
+#header ul li {
+  float: left;
+  margin-left: 1.5vw;
+  font-size: 1.2vw;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+</style>
+</head>
+
+
+<a id="top"></a>
+
+<div id="header">
+    <ul>
+      <li><a href="myWebSite.html">Home</a></li>
+      <li><a href="#top">About</a></li>
+    </ul>
+  </div>
+
+<body>
+
+
+
+
+<div class="row" style="height=100%; background: rgb(204,204,204);
+background: linear-gradient(90deg, rgba(204,204,204,1) 0%, rgba(187,187,187,1) 25%, rgba(187,187,187,1) 75%, rgba(204,204,204,0.9939031708106566) 100%);">
+  <div class="columnLeft">
+    
+    
+    
+  </div>
+  <div class="columnMiddle" \>
+    <p></p><br/><br/>
+    <p>I am Alireza and this is where I write essays about the things that I find interesting, and share some Youtube videos. Of course, the essays contains errors so kindly let me know if you had any suggestions. Thank you!</p>
+
+    <p>Email: alirezamaleki619@gmail.com</p>
+  
+    <p><p/><br/><br/>
+    <h2>About me</h2>
+
+    <p>Since I was at secondary school, I found myself interested in physics and this interest guided me to this state. In high school, I was introduced to astronomy and astrophysics Olympiad, which I’ve had a fantastic adventure in this part of my life. In the Olympiad I could act well and I achieved a bronze (2015) and a gold (2016) medal which had important impact on my life. In the last year of the high school, I’ve acquainted to neuroscience which potentially persuaded me to choose neuroscience as my major in university. I entered Sharif University of Technology in 2017. During the first two years I had so complicated situation in my life which made me obsessed. However, I tried to come up with them and somehow, made sophisticated experiences for me.</p>
+    
+    <p>After high school I decided to teach Olympiad courses in high schools over the country for two and half years. After that I focused more on my major and I involved myself in to different projects related to my field of study (neuroscience, AI, and signal processing) and I am gaining more knowledge and experiences through them. Recently I started to work in finance AI team at Setare Ditial Aisa.</p>
+    <p>I am also a swimmer and I used to go to swimming pool frequently (but before the pandemic). And I play piano, read books, ride bike, and watch movie in my leisure time.</p>
+  </div>
+
+
+
+</div>
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("header");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+
+
+</body>
+
+
+
+</html>
+
